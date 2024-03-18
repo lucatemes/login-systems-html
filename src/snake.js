@@ -25,6 +25,8 @@ window.onload = function() {
     
 }
 
+
+
 function desenhaTela () {
     if (gameOver) {  
         return;
@@ -77,7 +79,7 @@ function limites() {
     }
 
 function goToSnake(){
-        location.href = "main.html"
+        location.href = "snake.html"
     }
 
     for (let i = 0 ; i < snakeBody.length ; i++) {
