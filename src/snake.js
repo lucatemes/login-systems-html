@@ -21,7 +21,7 @@ window.onload = function() {
     c = tela.getContext("2d");
     criarMaca();
     document.addEventListener("keyup", andar);
-    setInterval(desenhaTela, 1000/10); 
+    setInterval(desenhaTela, 1000/10);
     
 }
 
